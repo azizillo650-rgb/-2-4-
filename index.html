@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Часть 1</h1>
+
+    <button id="btn" data-id="5" data-name="Аня">Нажми</button>
+
+    <br><br>
+
+    <button class="colorBtn" data-color="red">Красный</button>
+    <button class="colorBtn" data-color="green">Зелёный</button>
+    <button class="colorBtn" data-color="blue">Синий</button>
+
+    <hr>
+
+    <h1>Игра «Успейте набрать очки!»</h1>
+
+    <input type="text" id="nameInput" placeholder="Введите имя">
+
+    <button id="startBtn">Начать</button>
+
+    <h2 id="greeting"></h2>
+
+    <h2 id="luck"></h2>
+
+    <p>Время: <span id="time">20</span> секунд</p>
+
+    <p>Очки: <span id="score">0</span></p>
+
+    <button class="pointBtn" data-points="1">+1</button>
+    <button class="pointBtn" data-points="5">+5</button>
+    <button class="pointBtn" data-points="10">+10</button>
+
+    <h2 id="result"></h2>
+
+    <button id="restartBtn">Играть заново</button>
+
+    <script src="main.js"></script>
+</body>
+</html>
